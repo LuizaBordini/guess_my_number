@@ -1,0 +1,66 @@
+* {
+    font-family: 'VT323', monospace;
+}
+body {
+    font-family: 'VT323', monospace;
+    color: rgb(22, 21, 21);
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.computer_face {
+    margin-top: 50px;
+    width: 300px;
+}
+.entrada {
+    height: 80px;
+    width: 100px;
+    font-size: 60px;
+    border:none;
+}
+
+.box_entrada {
+    display: flex;
+    justify-content: center;
+    
+}
+.enviar{
+    cursor: pointer;
+    height: 70px;
+    width: 75px;
+    border-radius: 10px;
+    border: none;
+    font-size: 60px;
+    background-color: rgb(31, 31, 31);
+    color: rgb(139, 139, 139);
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.again {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-block-end:  20px;
+    width: 75px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    background-color: rgb(228, 185, 44);
+    color: rgb(53, 53, 56);
+    font-weight: bold;
+    margin-top: 8px;
+    
+    
+}
+
+
+.score {
+    font-size: 50px;
+
+}
